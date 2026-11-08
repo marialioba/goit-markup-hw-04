@@ -42,6 +42,11 @@
 }
 
 .team-item {
+  box-shadow:
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
+
   width: calc((100% - 24px * 3) / 4);
   background-color: #fff;
   border-radius: 0 0 4px 4px;
@@ -53,11 +58,6 @@
 }
 
 .team-info {
-  box-shadow:
-    0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16),
-    0 1px 6px 0 rgba(46, 47, 66, 0.08);
-
   padding: 32px 16px;
   text-align: center;
 }
@@ -104,8 +104,8 @@
 .team-social-icon {
   width: 16px;
   height: 16px;
-  fill: #fff;
-  color: #fff;
+  fill: #f4f4fd;
+  color: #f4f4fd;
 }
 
 .team-social-link:hover,

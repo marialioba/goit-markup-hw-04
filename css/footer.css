@@ -78,11 +78,11 @@
 
 .social-link:hover,
 .social-link:focus {
-  background: #31d0aa;
+  background-color: #31d0aa;
 }
 
 .social-icon {
-  width: 16px;
-  height: 16px;
-  fill: #fff;
+  width: 24px;
+  height: 24px;
+  fill: #f4f4fd;
 }
